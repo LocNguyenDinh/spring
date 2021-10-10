@@ -14,4 +14,8 @@ public class HomeController {
     public  String get1(){
         return "Welcome";
     }
+    @GetMapping("/fuck")
+    public  String get2(){
+        return "fuck";
+    }
 }
